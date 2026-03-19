@@ -1,0 +1,22 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
