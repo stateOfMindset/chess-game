@@ -153,8 +153,10 @@ function onSquareOnMouseDown(idx, event) {
         document.body.appendChild(selectedPiece);
         drag_helper_attributes(event);
         onSquareClick(idx);
-        if (findSquareById(dragging_Piece_id).querySelector('img'))
-            findSquareById(dragging_Piece_id).querySelector('img').remove();
+        const piece = findSquareById(dragging_Piece_id).querySelector('img');
+        if (piece) {
+            piece.style.display = "none";
+        }
        
         
     }
